@@ -151,7 +151,6 @@ def wait_for_element(*args, &block)
 end
 
 def wait_for_element_enabled(*args, &block)
-	#timeout = 8
 	element = nil
 	wait = Selenium::WebDriver::Wait.new(:timeout => Waittime)
 	wait.until { 
@@ -185,6 +184,6 @@ def login(username, password)
       driver.find_element(:id, "password").clear
       driver.find_element(:id, "password").send_key "coupa123\n"
       driver.find_element(:id, "loginButton").click
-      wait_for_element(:id, "home") {}
+      wait_for_element(:id, "home"){}
   end
 end
