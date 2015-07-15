@@ -1,0 +1,11 @@
+[caps]
+platformName = "Android"
+deviceName = "Android Simulator"
+platformVersion = "4.2"
+app = "~/Desktop/coupa-mobile_2.0.9_906-signed-aligned.apk"
+appPackage = "com.coupa.android.coupamobile"
+appWaitActivity = "com.coupa.android.coupamobile.views.SplashScreenActivity,com.coupa.android.coupamobile.views.LoginCoupaInstanceActivity"
+appActivity = "com.coupa.android.coupamobile.views.SplashScreenActivity"  
+
+[appium_lib]
+port = 4723

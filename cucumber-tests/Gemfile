@@ -1,0 +1,7 @@
+source "https://www.rubygems.org"
+gem "rest-client"
+gem "rspec"
+gem "cucumber"
+gem "rspec-expectations"
+gem "random_data"
+gem "appium_lib"
