@@ -10,6 +10,7 @@ Scenario Outline: login
 
 @android
 Scenarios: 
-  | Username     | Password      | Result |
+  | Username     | Password      | Result    |
+  | coupa2091    | coupa123      | Approvals |
   | coupaSupport | CoupaSupport1 | Approvals |
  

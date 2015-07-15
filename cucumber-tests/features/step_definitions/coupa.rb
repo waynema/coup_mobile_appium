@@ -180,9 +180,9 @@ def login(username, password)
       driver.find_element(:id, "continueButton").click
       wait_for_element(:id, "username"){}
       driver.find_element(:id, "username").clear
-      driver.find_element(:id, "username").send_key "coupa2091"
+      driver.find_element(:id, "username").send_key username
       driver.find_element(:id, "password").clear
-      driver.find_element(:id, "password").send_key "coupa123\n"
+      driver.find_element(:id, "password").send_key password+"\n"
       driver.find_element(:id, "loginButton").click
       wait_for_element(:id, "home"){}
   end
