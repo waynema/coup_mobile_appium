@@ -1,4 +1,27 @@
-test-automation-mobile
-======================
+Ruby
+Rspec
+Cucumber
+Appium
 
-Mobile UI test automation
+
+Setup:
+
+    bundle install
+
+Make sure appium is running in another terminal first:
+
+    appium 
+
+Run tests:
+
+    cucumber OS=android features/login.feature    
+
+
+Resources:
+
+- http://www.ruby-doc.org/docs/ProgrammingRuby/
+- http://rspec.info/
+- http://cukes.info/
+- https://github.com/appium/ruby_console/blob/master/osx.md
+- https://github.com/appium/ruby_lib/tree/master/docs
+- http://rubydoc.info/gems/selenium-webdriver/Selenium/WebDriver/Element
