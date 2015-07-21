@@ -16,7 +16,7 @@ case ENV['OS']
     report_path = 'features/areports/'
 end
 
-Waittime=10
+Waittime=50
 
 Appium::Driver.new(caps)
 Appium.promote_appium_methods AppiumWorld

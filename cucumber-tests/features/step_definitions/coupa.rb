@@ -1,6 +1,11 @@
 ﻿Given(/^I have App running with appium$/) do
 end
 
+When (/^I wait to debug$/) do
+  require 'pry'
+  binding.pry
+end
+
 When(/^I click "(.*?)"$/) do |data|
   if ENV['OS'] == "ios"
     wait_for_element(:name, data) {|btn|btn.click}

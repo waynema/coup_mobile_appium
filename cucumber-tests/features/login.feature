@@ -6,6 +6,8 @@ Feature: Login
 Scenario Outline: login
   Given I login using "<Username>" and "<Password>"
   Then I should see "<Result>"
+  And I tap "History"
+  Then I should see "No Historical Approvals Found!"
 
 
 @android
